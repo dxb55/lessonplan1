@@ -1,0 +1,26 @@
+{
+  "name": "lesson-plan-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes vite --host",
+    "build": "npx --yes vite build",
+    "preview": "npx --yes vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@google/generative-ai": "^0.2.0",
+    "@mantine/core": "^7.5.1",
+    "@mantine/form": "^7.5.1",
+    "@mantine/hooks": "^7.5.1",
+    "@tabler/icons-react": "^2.47.0",
+    "vite": "^5.0.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "postcss": "^8.4.33",
+    "postcss-preset-mantine": "^1.13.0"
+  }
+}
